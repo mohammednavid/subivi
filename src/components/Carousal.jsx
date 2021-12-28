@@ -2,7 +2,10 @@ import Slider from "react-slick";
 import "../assets/styles/Carousal.scss";
 import slider1 from "../assets/images/slider1.jpg";
 import slider2 from "../assets/images/slider2.jpg";
+import slider3 from "../assets/images/slider3.png";
 import slider4 from "../assets/images/slider4.jpg";
+import slider5 from "../assets/images/slider5.png";
+import slider6 from "../assets/images/slider6.png";
 
 const Carousal = () => {
   const settings = {
@@ -121,7 +124,7 @@ const Carousal = () => {
               </p>
             </div>
             <div className="slider_right">
-              <img src={slider1} alt="" />
+              <img src={slider3} alt="" />
             </div>
           </div>
         </div>
@@ -173,7 +176,7 @@ const Carousal = () => {
               </p>
             </div>
             <div className="slider_right">
-              <img src={slider2} alt="" />
+              <img src={slider5} alt="" />
             </div>
           </div>
         </div>
@@ -197,7 +200,7 @@ const Carousal = () => {
               </p>
             </div>
             <div className="slider_right">
-              <img src={slider4} alt="" />
+              <img src={slider6} alt="" />
             </div>
           </div>
         </div>

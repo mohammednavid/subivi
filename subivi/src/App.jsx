@@ -84,7 +84,13 @@ function App() {
           <img src={hustle} alt="" />
         </div>
       </div>
+      
       <Carousal />
+
+      <div className="app_container">
+        <Reviews />
+      </div>
+
       <div className="plan_container">
         <h2 className="upper_title">Pricing that fits you</h2>
         <h1 className="title2">
@@ -222,9 +228,6 @@ function App() {
             />
           </div>
         )}
-      </div>
-      <div className="app_container">
-        <Reviews />
       </div>
       <Footer />
     </div>
